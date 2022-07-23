@@ -2,7 +2,7 @@ body {
   font-family:"Montserrat-Black", sans-serif;
 
 }
-
+/* title section here */
 .title {
   background-color: #0AA1DD;
   color: #fff;
@@ -13,6 +13,7 @@ body {
 .mobile-pic {
   margin-left: 15%;
 }
+/* here h3 section comes */
 h3 {
   font-family:"Montserrat-Black";
   font-weight: bold;
@@ -22,6 +23,7 @@ h3 {
 p {
   color: #8f8f8f;
 }
+/* here the other h1 files comes */
 h1 {
   font-family: "Montserrat-Black", sans-serif;
   font-size:3rem;
@@ -116,4 +118,14 @@ h2 {
 
 .pricing-col {
   padding: 3% 2%;
+}
+@media (max-width:1028px) {
+  .title {
+    text-align: center;
+  }
+  .mobile-pic {
+    position:static;
+    transform: rotate(0);
+  }
+
 }
