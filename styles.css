@@ -129,3 +129,26 @@ h2 {
   }
 
 }
+
+/* footer section */
+.cta {
+  background-color: #0AA1DD;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.footer-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5rem;
+}
+
+.footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+}
